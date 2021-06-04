@@ -1,0 +1,23 @@
+h1{
+    font-size: 40px;
+}
+
+.btn-success:hover{
+    background-color: grey;
+}
+
+.btn-success{
+    font-size: 30px;
+}
+
+canvas{
+    animation-name: Night;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Night{
+    from{box-shadow: 1px 1px 38px #100045;}
+    to{box-shadow: 1px 1px 38px #5300ab}
+    
+}
